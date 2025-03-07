@@ -1,0 +1,13 @@
+[0.050s] Invoking command in '/home/katie/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.175s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[0.217s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.243s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.296s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[27.077s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[27.078s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[27.101s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[27.825s] [ 87%] Built target obstacle1
+[27.855s] [ 87%] Built target obstacle2
+[27.861s] [ 87%] Built target obstacles
+[28.052s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[29.009s] [100%] Built target turtlebot3_drive

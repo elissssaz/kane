@@ -1,0 +1,96 @@
+[0.050s] Invoking command in '/home/katie/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/turtlebot3_msgs
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.606s] -- Detecting C compiler ABI info - done
+[0.645s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.645s] -- Detecting C compile features
+[0.646s] -- Detecting C compile features - done
+[0.651s] -- Detecting CXX compiler ABI info
+[0.849s] -- Detecting CXX compiler ABI info - done
+[0.869s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.869s] -- Detecting CXX compile features
+[0.871s] -- Detecting CXX compile features - done
+[0.876s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.963s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.301s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.312s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.329s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.494s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.516s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[3.736s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.742s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.760s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.760s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.995s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.063s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.066s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.067s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.156s] -- Found PythonExtra: .so  
+[5.375s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.377s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.408s] -- Configuring done
+[5.517s] -- Generating done
+[5.548s] -- Build files have been written to: /home/katie/turtlebot3_ws/build/turtlebot3_msgs
+[5.584s] Invoked command in '/home/katie/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/turtlebot3_msgs
+[5.585s] Invoking command in '/home/katie/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/turtlebot3_msgs -- -j8 -l8
+[5.702s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.745s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.864s] [  2%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[6.461s] running egg_info
+[6.504s] creating turtlebot3_msgs.egg-info
+[6.504s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[6.510s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[6.513s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[6.514s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[6.640s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[6.680s] Traceback (most recent call last):
+[6.680s]   File "/home/katie/turtlebot3_ws/build/turtlebot3_msgs/ament_cmake_python/turtlebot3_msgs/setup.py", line 4, in <module>
+[6.681s]     setup(
+[6.681s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[6.681s]     return distutils.core.setup(**attrs)
+[6.682s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[6.682s]     return run_commands(dist)
+[6.683s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[6.683s]     dist.run_commands()
+[6.684s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+[6.684s]     self.run_command(cmd)
+[6.685s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[6.685s]     super().run_command(command)
+[6.686s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_command
+[6.686s]     cmd_obj.run()
+[6.687s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[6.687s]     self.find_sources()
+[6.688s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[6.688s]     mm.run()
+[6.689s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[6.689s]     self.prune_file_list()
+[6.689s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[6.690s]     super().prune_file_list()
+[6.690s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[6.691s]     base_dir = self.distribution.get_fullname()
+[6.691s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+[6.692s]     return _distribution_fullname(self.get_name(), self.get_version())
+[6.692s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+[6.692s]     canonicalize_version(version, strip_trailing_zero=False),
+[6.693s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[6.849s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg] Error 1
+[6.849s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/all] Error 2
+[6.850s] gmake[1]: *** Waiting for unfinished jobs....
+[7.926s] [  2%] Built target turtlebot3_msgs__cpp
+[8.064s] [  4%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[8.065s] [  5%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[8.066s] [  8%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[8.066s] [  9%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o[0m
+[8.067s] [  9%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[8.068s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[8.299s] [ 12%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[8.377s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[8.382s] gmake: *** [Makefile:146: all] Error 2

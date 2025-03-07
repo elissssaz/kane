@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:msg/Sound.msg",
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:srv/Sound.srv",
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/katie/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

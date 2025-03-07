@@ -1,0 +1,27 @@
+[2.008s] Invoking command in '/home/katie/turtlebot3_ws/build/tb3_sim': PYTHONPATH=/home/katie/turtlebot3_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/katie/turtlebot3_ws/build/tb3_sim/build --no-deps symlink_data
+[2.453s] running develop
+[2.765s] running egg_info
+[2.765s] creating tb3_sim.egg-info
+[2.766s] writing tb3_sim.egg-info/PKG-INFO
+[2.766s] writing dependency_links to tb3_sim.egg-info/dependency_links.txt
+[2.766s] writing entry points to tb3_sim.egg-info/entry_points.txt
+[2.766s] writing requirements to tb3_sim.egg-info/requires.txt
+[2.766s] writing top-level names to tb3_sim.egg-info/top_level.txt
+[2.766s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[2.770s] reading manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[2.771s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[2.773s] running build_ext
+[2.774s] Creating /home/katie/turtlebot3_ws/install/tb3_sim/lib/python3.10/site-packages/tb3-sim.egg-link (link to .)
+[2.775s] Installing amcl_init_pose_publisher script to /home/katie/turtlebot3_ws/install/tb3_sim/lib/tb3_sim
+[2.776s] 
+[2.776s] Installed /home/katie/turtlebot3_ws/build/tb3_sim
+[2.777s] running symlink_data
+[2.779s] creating /home/katie/turtlebot3_ws/install/tb3_sim/share/ament_index
+[2.780s] creating /home/katie/turtlebot3_ws/install/tb3_sim/share/ament_index/resource_index
+[2.780s] creating /home/katie/turtlebot3_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[2.780s] symbolically linking /home/katie/turtlebot3_ws/build/tb3_sim/resource/tb3_sim -> /home/katie/turtlebot3_ws/install/tb3_sim/share/ament_index/resource_index/packages
+[2.780s] symbolically linking /home/katie/turtlebot3_ws/build/tb3_sim/package.xml -> /home/katie/turtlebot3_ws/install/tb3_sim/share/tb3_sim
+[2.780s] symbolically linking /home/katie/turtlebot3_ws/build/tb3_sim/launch/turtlebot3_world.launch.py -> /home/katie/turtlebot3_ws/install/tb3_sim/share/tb3_sim
+[2.780s] symbolically linking /home/katie/turtlebot3_ws/build/tb3_sim/launch/nav2.launch.py -> /home/katie/turtlebot3_ws/install/tb3_sim/share/tb3_sim
+[2.781s] creating /home/katie/turtlebot3_ws/install/tb3_sim/share/tb3_sim/maps
+[2.858s] Invoked command in '/home/katie/turtlebot3_ws/build/tb3_sim' returned '0': PYTHONPATH=/home/katie/turtlebot3_ws/build/tb3_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katie/turtlebot3_ws/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/katie/turtlebot3_ws/build/tb3_sim/build --no-deps symlink_data

@@ -1,5 +1,0 @@
-# Request
-string book_title
----
-# Response
-string status_message

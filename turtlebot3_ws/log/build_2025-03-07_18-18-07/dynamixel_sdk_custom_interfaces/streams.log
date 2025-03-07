@@ -1,0 +1,88 @@
+[0.043s] Invoking command in '/home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.618s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.618s] -- Detecting C compile features
+[0.618s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.877s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.877s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.884s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.943s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.206s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.269s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.280s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.298s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.398s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.301s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.127s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.444s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.449s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.505s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.506s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.506s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.553s] -- Found PythonExtra: .so  
+[4.655s] -- Configuring done
+[4.718s] -- Generating done
+[4.740s] -- Build files have been written to: /home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
+[4.757s] Invoked command in '/home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/katie/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/katie/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[4.760s] Invoking command in '/home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[4.858s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.868s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.894s] [  5%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[5.484s] running egg_info
+[5.520s] creating dynamixel_sdk_custom_interfaces.egg-info
+[5.523s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[5.524s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[5.525s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[5.525s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.630s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.664s] Traceback (most recent call last):
+[5.664s]   File "/home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 4, in <module>
+[5.664s]     setup(
+[5.664s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[5.665s]     return distutils.core.setup(**attrs)
+[5.665s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[5.665s]     return run_commands(dist)
+[5.665s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[5.665s]     dist.run_commands()
+[5.665s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+[5.666s]     self.run_command(cmd)
+[5.666s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[5.666s]     super().run_command(command)
+[5.666s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_command
+[5.666s]     cmd_obj.run()
+[5.666s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[5.666s]     self.find_sources()
+[5.666s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[5.667s]     mm.run()
+[5.667s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[5.667s]     self.prune_file_list()
+[5.667s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[5.667s]     super().prune_file_list()
+[5.667s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[5.667s]     base_dir = self.distribution.get_fullname()
+[5.668s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+[5.668s]     return _distribution_fullname(self.get_name(), self.get_version())
+[5.668s]   File "/home/katie/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+[5.668s]     canonicalize_version(version, strip_trailing_zero=False),
+[5.668s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[5.769s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Error 1
+[5.770s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Error 2
+[5.771s] gmake[1]: *** Waiting for unfinished jobs....
+[5.920s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[5.940s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[5.972s] [ 10%] Built target dynamixel_sdk_custom_interfaces__cpp
+[6.094s] [ 12%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[6.189s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[6.193s] gmake: *** [Makefile:146: all] Error 2
+[6.203s] Invoked command in '/home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/katie/turtlebot3_ws/install/turtlebot3_teleop:/home/katie/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/katie/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
